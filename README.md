@@ -93,6 +93,14 @@ For Example :
 
 ---
 
+## ⚠️ Testing Note
+
+The Winlogon shell replacement scenario was not executed to avoid affecting system stability.
+
+This ensures a safe testing environment while preventing disruption to normal system behavior.
+
+---
+
 ## 📁 Project Structure
 
 RegistryMonitor/
