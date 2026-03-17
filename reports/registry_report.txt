@@ -1,0 +1,68 @@
+===========================================================================
+       WINDOWS REGISTRY CHANGE MONITORING SYSTEM — FORENSIC REPORT
+===========================================================================
+  Report Generated   : 2026-03-15 19:59:27
+  Baseline Captured  : 2026-03-15T18:29:57.102221
+  Baseline Hash      : f3fb1453106f5328cf3fb5ae1c20921d005c6c6c...
+  Author             : Sumit Dahiya (CDFE)
+  Total Changes      : 0
+  Malware Alerts     : 0
+  Autorun Entries    : 5
+  Keys Monitored     : 10
+===========================================================================
+
+1. RISK ASSESSMENT
+---------------------------------------------------------------------------
+   Overall Risk Level : 🟢 LOW RISK
+   Risk Score         : 0  [ LOW: 0–29 | MEDIUM: 30–59 | HIGH: 60–79 | CRITICAL: 80+ ]
+   Score Meter        : [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]
+
+   Risk Factor Breakdown:
+     ✔  No risk factors detected — system appears clean.
+
+2. MALWARE-PATTERN ALERTS
+---------------------------------------------------------------------------
+   ✔  No malware-pattern matches detected.
+
+3. REGISTRY CHANGE EVENT LOG
+---------------------------------------------------------------------------
+   TIMESTAMP              TYPE       RISK       THREAT TYPE            REGISTRY PATH  ->  VALUE
+   ---------------------- ---------- ---------- ---------------------- ------------------------------------------
+   ✔  No registry changes detected since baseline.
+
+4. THREAT CLASSIFICATION SUMMARY
+---------------------------------------------------------------------------
+   REGISTRY CHANGE                          THREAT TYPE            RISK      
+   ---------------------------------------- ---------------------- ----------
+   ✔  No threats classified — no changes detected.
+
+5. AUTORUN ENTRIES DETECTED
+---------------------------------------------------------------------------
+   TIMESTAMP              RISK     LOCATION               NAME                       EXECUTABLE PATH
+   ---------------------- -------- ---------------------- -------------------------- -----------------------------------
+   [2026-03-15 19:59:27] [MEDIUM]  HKCU_Run               OneDrive                   "C:\Program Files\Microsoft OneDrive\OneDrive.exe" /background
+   [2026-03-15 19:59:27] [MEDIUM]  HKCU_Run               Toolkit                    C:\Program Files (x86)\Toolkit\Toolkit.exe /WinStart
+   [2026-03-15 19:59:27] [HIGH  ]  HKLM_Run               SecurityHealth             %windir%\system32\SecurityHealthSystray.exe
+   [2026-03-15 19:59:27] [HIGH  ]  HKLM_Run               RtkAudUService             "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_4dab0fd1fdeb2aa1\RtkAudUService64.exe" -background
+   [2026-03-15 19:59:27] [HIGH  ]  HKLM_Run               AdobeGCInvoker-1.0         "C:\Program Files (x86)\Common Files\Adobe\AdobeGCClient\AGCInvokerUtility.exe"
+
+6. SUMMARY
+---------------------------------------------------------------------------
+   Report Timestamp   : 2026-03-15 19:59:27
+   Risk Level         : 🟢 LOW RISK
+   Risk Score         : 0
+   Changes Detected   : 0
+     ↳ ADDED          : 0
+     ↳ MODIFIED       : 0
+     ↳ DELETED        : 0
+   Malware Alerts     : 0
+   Autorun Entries    : 5
+
+   FORENSIC NOTE: This tool operates in READ-ONLY mode.
+   The registry is never modified by this tool.
+   All findings should be correlated with event logs and process activity.
+   Rolling Baseline   : registry_baseline.json
+   Clean Backup       : registry_baseline_clean.json
+   Log File           : registry_changes.log
+   Report File        : registry_report.txt
+===========================================================================

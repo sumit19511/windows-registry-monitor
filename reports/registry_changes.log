@@ -1,0 +1,85 @@
+2026-03-15 18:29:57 | INFO | Baseline created — hash: f3fb1453106f5328... | Keys: 10
+2026-03-15 18:30:27 | INFO | Integrity check PASSED.
+2026-03-15 18:30:27 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 18:30:55 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 18:30:55 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 18:30:55 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 18:39:31 | WARNING | ADDED [HIGH] [System Persistence]: HKLM\Software\Microsoft\Windows\CurrentVersion\Run -> WindowsUpdaterDemo
+2026-03-15 18:39:31 | INFO | Risk Score: 40 | Level: MEDIUM
+2026-03-15 18:39:31 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 18:43:11 | WARNING | MODIFIED [HIGH] [System Persistence]: HKLM\Software\Microsoft\Windows\CurrentVersion\Run -> WindowsUpdaterDemo
+2026-03-15 18:43:11 | WARNING | Suspicious autorun path [HKLM_Run] 'WindowsUpdaterDemo' -> C:\temp\malware.exe
+2026-03-15 18:43:11 | INFO | Risk Score: 65 | Level: HIGH
+2026-03-15 18:43:11 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 18:47:30 | INFO | DELETED [MEDIUM] [System Persistence]: HKLM\Software\Microsoft\Windows\CurrentVersion\Run -> WindowsUpdaterDemo
+2026-03-15 18:47:30 | INFO | Risk Score: 30 | Level: MEDIUM
+2026-03-15 18:47:30 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 18:49:35 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 18:49:35 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 18:49:35 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 18:55:40 | WARNING | MODIFIED [HIGH] [Security Bypass]: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System -> ConsentPromptBehaviorAdmin
+2026-03-15 18:55:40 | INFO | Risk Score: 60 | Level: HIGH
+2026-03-15 18:55:40 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 18:56:28 | WARNING | MODIFIED [HIGH] [Security Bypass]: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System -> ConsentPromptBehaviorAdmin
+2026-03-15 18:56:28 | INFO | Risk Score: 60 | Level: HIGH
+2026-03-15 18:56:28 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 18:56:45 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 18:56:45 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 18:56:45 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:10:00 | WARNING | ADDED [CRITICAL] [Defense Evasion]: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiVirus
+2026-03-15 19:10:00 | INFO | Risk Score: 10 | Level: LOW
+2026-03-15 19:10:00 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:13:40 | INFO | DELETED [LOW] [Registry Change]: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiVirus
+2026-03-15 19:13:40 | INFO | Risk Score: 5 | Level: LOW
+2026-03-15 19:13:40 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:14:48 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:14:48 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 19:14:48 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:28:55 | WARNING | MODIFIED [HIGH] [Security Bypass]: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System -> ConsentPromptBehaviorAdmin
+2026-03-15 19:28:55 | INFO | Risk Score: 60 | Level: HIGH
+2026-03-15 19:28:55 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:29:57 | WARNING | MODIFIED [HIGH] [Security Bypass]: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System -> ConsentPromptBehaviorAdmin
+2026-03-15 19:29:57 | INFO | Risk Score: 60 | Level: HIGH
+2026-03-15 19:29:57 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:29:59 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:29:59 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 19:29:59 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:31:24 | WARNING | MODIFIED [CRITICAL] [Defense Evasion]: HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile -> EnableFirewall
+2026-03-15 19:31:24 | WARNING | MODIFIED [CRITICAL] [Defense Evasion]: HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile -> EnableFirewall
+2026-03-15 19:31:24 | CRITICAL | MALWARE ALERT [HIGH]: Standard Network Firewall has been DISABLED
+2026-03-15 19:31:24 | CRITICAL | MALWARE ALERT [HIGH]: Domain Network Firewall has been DISABLED
+2026-03-15 19:31:24 | INFO | Risk Score: 160 | Level: CRITICAL
+2026-03-15 19:31:24 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:35:08 | WARNING | ADDED [CRITICAL] [Defense Evasion]: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiVirus
+2026-03-15 19:35:08 | WARNING | MODIFIED [CRITICAL] [Defense Evasion]: HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile -> EnableFirewall
+2026-03-15 19:35:08 | WARNING | MODIFIED [CRITICAL] [Defense Evasion]: HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile -> EnableFirewall
+2026-03-15 19:35:08 | INFO | Risk Score: 240 | Level: CRITICAL
+2026-03-15 19:35:08 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:35:41 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:35:41 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 19:35:41 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:37:00 | INFO | DELETED [LOW] [Registry Change]: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiVirus
+2026-03-15 19:37:00 | INFO | Risk Score: 5 | Level: LOW
+2026-03-15 19:37:00 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:38:20 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:38:20 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 19:38:20 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:38:53 | WARNING | ADDED [CRITICAL] [Defense Evasion]: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiVirus
+2026-03-15 19:38:53 | INFO | Risk Score: 80 | Level: CRITICAL
+2026-03-15 19:38:53 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:40:04 | INFO | DELETED [LOW] [Registry Change]: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiVirus
+2026-03-15 19:40:04 | INFO | Risk Score: 5 | Level: LOW
+2026-03-15 19:40:04 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:40:37 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:40:37 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 19:40:37 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:43:30 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:43:45 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:44:00 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:44:15 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:44:30 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:44:40 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 19:44:40 | INFO | Forensic report saved to 'registry_report.txt'
+2026-03-15 19:59:27 | INFO | \u2714 No changes detected in this scan.
+2026-03-15 19:59:27 | INFO | Risk Score: 0 | Level: LOW
+2026-03-15 19:59:27 | INFO | Forensic report saved to 'registry_report.txt'
