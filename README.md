@@ -76,6 +76,23 @@ Continuously monitors registry changes.
 
 ---
 
+## ⚙️ Task Scheduler Automation
+
+The monitoring tool can be automated using Windows Task Scheduler to run at scheduled intervals.
+
+This allows continuous registry monitoring without manual execution, making it suitable for real-world security monitoring environments.
+
+Example:
+- Run the script every 5 minutes
+- Monitor registry changes in the background
+- Generate logs and reports automatically
+
+For Example :
+- Program: python
+- Argument: registrymonitor.py --monitor
+
+---
+
 ## 📁 Project Structure
 
 RegistryMonitor/
