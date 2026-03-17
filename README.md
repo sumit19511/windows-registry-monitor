@@ -93,7 +93,7 @@ For Example :
 
 ---
 
-## ⚠️ Testing Note
+## ⚠️ Testing Note (Winlogon)
 
 The Winlogon shell replacement scenario was not executed to avoid affecting system stability.
 
